@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Mon Extension Test Firefox",
+  "version": "1.0",
+  "description": "Extension de test très simple pour Firefox",
+  
+  "permissions": [
+    "activeTab"
+  ],
+  
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Mon Extension Test",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
